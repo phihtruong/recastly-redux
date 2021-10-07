@@ -9,6 +9,7 @@ var handleVideoSearch = (q) => {
   //TODO:  Write an asynchronous action to handle a video search!
   // handle changing states after search event
   return (dispatch) => {
+    console.log('searching');
     searchYouTube({
       key: YOUTUBE_API_KEY,
       query: q
